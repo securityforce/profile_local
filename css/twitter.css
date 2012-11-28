@@ -1,0 +1,81 @@
+
+#twitter{float:left;}
+
+#tweet-container{
+	height:96px;
+	width:500px;
+	overflow:hidden;
+}
+
+
+
+.tweet{
+	padding:0px 5px 8px 0;
+	
+	margin-bottom:8px;
+	
+	border-bottom:none;
+	background:none;
+	
+	width:auto;
+	overflow:hidden;
+	height:80px;
+	
+}
+
+.tweet .avatar,
+.tweet .user,
+.tweet .time{
+	float:left;
+	
+}
+
+.tweet .time{
+	text-transform:none;
+	color:#333333;
+	white-space:nowrap;
+	font-family: "Times New Roman", Times, serif;
+	font-size:11px;
+	font-style:italic;
+}
+
+.tweet .avatar {
+
+	width:36px;
+	margin-right:10px;
+	
+
+}
+.tweet .avatar img{
+	width:36px;
+	height:36px;
+	border:none;/*2px solid #eeeeee*/
+	margin-top:22px;
+}
+
+.tweet .txt{
+	width:475px;
+	margin:22px 0 8px 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+}
+
+.tweet .user{
+	font-weight:bold;
+	margin-top:5px;
+}
+.tweet .brace{
+	width:19px;
+	height:80px;
+	float:left;
+	margin-right:10px;
+	background:url(../images/black/twitter_brace.png) top left no-repeat;
+}
+
+
+
+#loading{
+	margin:95px  242px;
+}
+
