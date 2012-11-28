@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/*------------------------------------------------------
+
+Theme Name: Studio 8 - version 1.0
+Theme Type: White
+
+CSS overview: 
+
+	1. Background
+	2. Commons
+	3. Main Elements
+	4. Menu
+	5. Page elements
+		i.twitter
+		ii.team list
+		iii. fancybox
+		iv.portfolio
+		v.blog
+		vi.form
+		vii.buttons
+		viii.pagination
+	6. Footer
+	7. Links
+	8. Typography
+		
+
+---------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------
+	1.BACKGROUND
+--------------------------------------------------------*/
+
+	body{background:#fff;}
+	.raster{background:url(../images/white/raster.png) repeat;}
+
+
+/*--------------------------------------------------------
+	2.COMMONS
+--------------------------------------------------------*/
+
+	.tweet .txt,p,#footer,#nav li a,blockquote p.clientRef,.field, .tarea,ul.listStyle li p{color:#999;}
+	#slidecaption, #slidecaption-grande,.comment,#sideBar #toggle,.sendForm,h1,#fancybox-title{color:#000;}
+
+
+/*--------------------------------------------------------
+	3.MAIN ELEMENTS
+--------------------------------------------------------*/
+
+	/*supersized*/
+	#supersized-loader {background: url(../images/white/loader.gif) no-repeat center center;}
+	#supersized-logoLoader{background: url(../images/white/logo.png)  top left no-repeat;}
+	#slidecaption,#s_ind{background:#fff;}
+	#supersized li {background: #fff;}
+	#prevslide{right:50px; background: url(../images/white/slide_nav.png) 0 -100px no-repeat;}
+	#nextslide{right:0px; background: url(../images/white/slide_nav.png) 0 -0px no-repeat;}
+	#prevslide:hover{background:url(../images/white/slide_nav.png) 0 -150px no-repeat;}
+	#nextslide:hover{background: url(../images/white/slide_nav.png) 0px -50px no-repeat;}
+	
+	/*sidebar + close + launch and content background*/
+	#sideBar #inner,#content-wrapper{background:#fff;}
+	#sideBar  #close-but{background:url(../images/white/toggle_but.png) top center no-repeat; font-family: Arial, Helvetica, sans-serif; font-size:14px;color:#999;}
+	#sideBar  #close-but:hover{background:url(../images/white/toggle_but.png) 0px -42px;color:#333;}
+	#launch-but{font-family:Arial, Helvetica, sans-serif;}
+	#launch-but #circle{background:#00ccff;}
+	#launch-but #circle-overlay{background:#000;}
+	#launch-but #label{text-align:center;color:#fff;}
+
+/*--------------------------------------------------------
+	4.MENU
+--------------------------------------------------------*/
+
+	#navContainer{border-top:1px dotted #ccc;border-bottom:1px dotted #ccc;}
+	#nav li a{font-family: Arial, Helvetica, sans-serif; font-size:12px; text-transform:uppercase;text-decoration:none; text-transform:uppercase; }
+	#nav li a:hover{text-decoration:none;color:#333;}
+	#nav li a.active {color:#333;}
+
+
+/*--------------------------------------------------------
+	5.PAGE ELEMENTS
+--------------------------------------------------------*/
+
+	/*i.---twitter*/
+	.jScrollPaneTrack {background: #ccc;}
+	.jScrollPaneDrag {background: #666;}
+	.tweet{border-bottom:1px dotted #ccc;}
+	.tweet .user a{font-size:14px; text-decoration:none; color:#666; font-weight:normal; font-family:'Ubuntu'}
+	.tweet .user a:hover{text-decoration:none; color:#ccc;}
+	.tweet .txt{font-family:Arial, Helvetica, sans-serif;font-size:12px;line-height:18px;font-style:italic;}
+	.tweet .time{color:#ccc; font-family:Arial, Helvetica, sans-serif;text-transform:none;}
+	.tweet .brace{background: url(../images/white/twitter_brace.png) top left no-repeat;}
+	
+	/*ii.---team list*/
+	ul.listStyle li{border-bottom:1px dotted #ccc;}
+	ul.listStyle li p{font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+	ul.listStyle li p span.name{font-size:14px;color:#888;}
+	ul.listStyle li p span.title{color:#888;background-color:#eee;}
+	
+	/*iii.---fancybox*/
+	#fancybox-outer {background: #fff;}
+	#fancybox-content {border: 0px solid #fff;}
+	#fancybox-left-ico {background-image: url(../images/white/fancybox.png)}
+    #fancybox-right-ico {background-image: url(../images/white/fancybox.png)}
+	#fancybox-close {background: transparent url(../images/white/fancybox.png) -40px 0px;}
+	#fancybox-title-over {background-image: url(../images/white/caption_bkg.png);}
+	
+	/*iv.---porfolio*/
+	._logoThumb{background:url(../images/white/logo_hover.png) 0 -160px no-repeat;}
+	
+	/*v.---blog*/
+	.post .entrySpec{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666;}
+	#blogContainer ul li div.post{border-bottom:1px dotted #ccc;}
+	.comment{background: url(../images/white/comments_blog.png) center center no-repeat;font-family:"Bebas Neue"; font-size:30px;}
+	._div{border-bottom:1px dotted  #ccc;}
+	._logoBlog{background:url(../images/white/logo_hover2.png) 0 -500px no-repeat;}
+	
+	/*vi.---form*/
+	.field{border:1px solid #ccc;font-family: Arial, Helvetica, sans-serif; font-size:12px;}
+	.field:focus{background:#f7f7f7;border:1px solid #ccc; color:#00ccff;}
+	.tarea{border:1px solid #ccc; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+	.tarea:focus{border:1px solid #ccc; color:#00ccff;background:#f7f7f7;}
+	.formReset{border:1px solid #ccc;}
+	.formVerify{border:1px solid #ccc; color:#00ccff;}
+	.formLoader{background: url(../images/white/loader.gif) no-repeat;}
+	
+	/*vii.---buttons*/
+	.sendForm{background-color:#eee;font-family:Arial, Helvetica, sans-serif;font-size:15px; color:#888;}
+	.sendForm:hover{background:#00ccff; color:#fff;}
+	
+	/*viii.---pagination*/
+	.page_navigation a, .alt_page_navigation a{background:url(../images/white/page_sel.png) 0 0  no-repeat;}
+	.active_page{background:url(../images/white/page_sel.png) 0px -10px  no-repeat !important;text-decoration:none;}
+
+
+
+/*--------------------------------------------------------
+	6.FOOTER
+--------------------------------------------------------*/
+
+	#footer{border-top:1px solid #ccc;font-family:Arial, Helvetica, sans-serif; font-size:11px;}
+
+
+/*--------------------------------------------------------
+	7.LINKS
+--------------------------------------------------------*/
+
+	a,a:visited{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#00ccff; text-decoration:none;}
+	a:hover{text-decoration:underline;}
+	a.r-more,a:visited.r-more{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#00ccff; text-decoration:none;}
+	a.r-more:hover{text-decoration:underline;}
+
+
+/*--------------------------------------------------------
+	8.TYPOGRAPHY
+--------------------------------------------------------*/
+
+	h1{font-family: "Bebas Neue"; font-size:130px;float:left;border-bottom:1px dotted #ccc;line-height:130px;}
+	h2,h3,h4,h5,h6{color:#666;font-family:Ubuntu;}
+	p{font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+	p.slogan{font-family: Arial, Helvetica, sans-serif;  font-size:12px;color:#00ccff;}
+	blockquote{background: url(../images/white/open_quote.png)0 0 no-repeat;font-style: italic;}
+	blockquote p {font-size:15px;color:#999;}
+	blockquote p.clientRef {font-size:11px;}
+
